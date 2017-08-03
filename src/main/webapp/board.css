@@ -1,0 +1,11 @@
+#bottom {
+    width: 50%;
+    margin-left: 7.15%;
+    display: grid;
+    grid-template: 100% / 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#top {
+    width: 50%;
+    display: grid;
+    grid-template: 100% / 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
