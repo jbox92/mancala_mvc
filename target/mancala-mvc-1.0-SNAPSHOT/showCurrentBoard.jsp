@@ -36,7 +36,7 @@
         <%= kalaha.getNthHole(1).getSeeds() %>
        </a>
        <a href="/mancala-mvc/mancala?action=move&hole=2">
-        <core:out value="${sessionScope.currentBoard.neighbour.neighbour.seeds}" />
+        <core:out value="${sessionScope.currentBoard.getNthHole(2).seeds}" />
        </a>
        <a href="/mancala-mvc/mancala?action=move&hole=3">
         <core:out value="${sessionScope.currentBoard.neighbour.neighbour.neighbour.seeds}" />

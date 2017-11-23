@@ -90,4 +90,11 @@ public class Kalaha {
             return neighbour.score(player2) - seeds;
         }
     }
+    public Kalaha getNthHole(int n) {
+        Kalaha hole = this;
+        for (int i=0;i<n;i++) {
+            hole = hole.getNeighbour();
+        }
+        return hole;
+    }
 }

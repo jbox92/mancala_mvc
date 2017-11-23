@@ -8,7 +8,7 @@
         <title>Winner</title>
     </head>
     <body>
-        <h1>Player 1 wins!</h1>
+        <h1>Player <core:out value="${sessionScope.winner}" /> wins!</h1>
         <core:out value="${sessionScope.score}" />
     </body>
 </html>
